@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OriyaSangamMN.ttc">
+            <string>OriyaSangamMN-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navbarimage" translatesAutoresizingMaskIntoConstraints="NO" id="rgU-Yi-Zy9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8O-nV-Ks3">
+                                <rect key="frame" x="0.0" y="343.5" width="375" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="7j7-94-2SO"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="76" id="S60-2h-N2L"/>
+                                    <constraint firstAttribute="height" constant="76" id="nsJ-1b-OTd"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="vd8-1Q-mVR"/>
+                                </constraints>
+                                <string key="text">Basic Implementations
+Application</string>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen" translatesAutoresizingMaskIntoConstraints="NO" id="hNl-fb-MjQ">
+                                <rect key="frame" x="53" y="158" width="268" height="148"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rgU-Yi-Zy9" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="0wS-C0-m06"/>
+                            <constraint firstItem="rgU-Yi-Zy9" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="2MO-4R-3Bm"/>
+                            <constraint firstAttribute="bottom" secondItem="rgU-Yi-Zy9" secondAttribute="bottom" id="7MK-F1-fPU"/>
+                            <constraint firstItem="hNl-fb-MjQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="37" id="7VY-tM-jPe"/>
+                            <constraint firstAttribute="trailing" secondItem="v8O-nV-Ks3" secondAttribute="trailing" id="Bla-IM-9Ud"/>
+                            <constraint firstItem="v8O-nV-Ks3" firstAttribute="top" secondItem="hNl-fb-MjQ" secondAttribute="bottom" constant="37.5" id="G4J-0w-MMV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hNl-fb-MjQ" secondAttribute="trailing" constant="38" id="UYU-FA-pwp"/>
+                            <constraint firstAttribute="bottom" secondItem="v8O-nV-Ks3" secondAttribute="bottom" constant="247.5" id="aPD-dD-FQS"/>
+                            <constraint firstAttribute="trailing" secondItem="rgU-Yi-Zy9" secondAttribute="trailing" id="geF-G7-UgC"/>
+                            <constraint firstItem="hNl-fb-MjQ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="138" id="sq3-E2-KBT"/>
+                            <constraint firstItem="v8O-nV-Ks3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="uCZ-CF-Y2L"/>
+                            <constraint firstItem="v8O-nV-Ks3" firstAttribute="top" secondItem="hNl-fb-MjQ" secondAttribute="bottom" constant="37.5" id="wgU-B1-hPr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchscreen" width="3508" height="1800"/>
+        <image name="navbarimage" width="1080" height="384"/>
+    </resources>
+</document>

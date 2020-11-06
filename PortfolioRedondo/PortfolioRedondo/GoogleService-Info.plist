@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>516361150382-7bk2jo9p9a5mfqjnjih22215373spjf5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.516361150382-7bk2jo9p9a5mfqjnjih22215373spjf5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCmPRFrXrTicKi9OCzP_g8FkZ7Um1CGpl0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>516361150382</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.redondo.PortfolioRedondo</string>
+	<key>PROJECT_ID</key>
+	<string>ios-portfolio-redondo</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ios-portfolio-redondo.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:516361150382:ios:93cb57008d6f89f7b4723f</string>
+	<key>DATABASE_URL</key>
+	<string>https://ios-portfolio-redondo.firebaseio.com</string>
+</dict>
+</plist>

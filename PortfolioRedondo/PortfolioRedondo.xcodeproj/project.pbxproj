@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10ED4D20A9FE69D1C6E17FFD /* Pods_PortfolioRedondo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA169B7578C5542FB799822 /* Pods_PortfolioRedondo.framework */; };
+		464D5413254EE2E400DCA9A9 /* PortfolioRedondo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 464D5411254EE2E400DCA9A9 /* PortfolioRedondo.xcdatamodeld */; };
+		464D5427254EE75400DCA9A9 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D5425254EE75400DCA9A9 /* Person+CoreDataProperties.swift */; };
+		464D5428254EE75400DCA9A9 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D5426254EE75400DCA9A9 /* Person+CoreDataClass.swift */; };
+		464D542A254EF11900DCA9A9 /* CDTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D5429254EF11900DCA9A9 /* CDTableViewController.swift */; };
+		464D542C254FE4AD00DCA9A9 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D542B254FE4AC00DCA9A9 /* WeatherViewController.swift */; };
+		464D542E254FEEB700DCA9A9 /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D542D254FEEB700DCA9A9 /* ChangeCityViewController.swift */; };
+		464D5430254FEED300DCA9A9 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D542F254FEED300DCA9A9 /* WeatherDataModel.swift */; };
+		464D5432254FF67000DCA9A9 /* BitcoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D5431254FF67000DCA9A9 /* BitcoinViewController.swift */; };
+		464D54342550DA6700DCA9A9 /* FirebaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D54332550DA6700DCA9A9 /* FirebaseViewController.swift */; };
+		467D52142553AD4F00B3F079 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467D52132553AD4F00B3F079 /* NotificationViewController.swift */; };
+		46BF2B64252DCB55004BA939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF2B63252DCB55004BA939 /* AppDelegate.swift */; };
+		46BF2B66252DCB55004BA939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF2B65252DCB55004BA939 /* ViewController.swift */; };
+		46BF2B69252DCB55004BA939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BF2B67252DCB55004BA939 /* Main.storyboard */; };
+		46BF2B6B252DCB55004BA939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BF2B6A252DCB55004BA939 /* Assets.xcassets */; };
+		46BF2B6E252DCB55004BA939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BF2B6C252DCB55004BA939 /* LaunchScreen.storyboard */; };
+		46BF2B76252DCC90004BA939 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF2B75252DCC90004BA939 /* CollectionViewCell.swift */; };
+		46D63276254AA9E6007374BC /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D63275254AA9E6007374BC /* XylophoneViewController.swift */; };
+		46D6327F254AB13A007374BC /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46D63278254AB139007374BC /* note5.wav */; };
+		46D63280254AB13A007374BC /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46D63279254AB139007374BC /* note1.wav */; };
+		46D63281254AB13A007374BC /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46D6327A254AB139007374BC /* note6.wav */; };
+		46D63282254AB13A007374BC /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46D6327B254AB139007374BC /* note7.wav */; };
+		46D63283254AB13A007374BC /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46D6327C254AB139007374BC /* note3.wav */; };
+		46D63284254AB13A007374BC /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46D6327D254AB139007374BC /* note2.wav */; };
+		46D63285254AB13A007374BC /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46D6327E254AB13A007374BC /* note4.wav */; };
+		46D63287254AF324007374BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46D63286254AF324007374BC /* GoogleService-Info.plist */; };
+		46E91390253C24CD00FB03B0 /* CardGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E9138F253C24CD00FB03B0 /* CardGameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		203BA0EA1BB4E7D53D723165 /* Pods-PortfolioRedondo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortfolioRedondo.debug.xcconfig"; path = "Target Support Files/Pods-PortfolioRedondo/Pods-PortfolioRedondo.debug.xcconfig"; sourceTree = "<group>"; };
+		3EA169B7578C5542FB799822 /* Pods_PortfolioRedondo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PortfolioRedondo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		464D5412254EE2E400DCA9A9 /* PortfolioRedondo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioRedondo.xcdatamodel; sourceTree = "<group>"; };
+		464D5425254EE75400DCA9A9 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		464D5426254EE75400DCA9A9 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		464D5429254EF11900DCA9A9 /* CDTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDTableViewController.swift; sourceTree = "<group>"; };
+		464D542B254FE4AC00DCA9A9 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		464D542D254FEEB700DCA9A9 /* ChangeCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityViewController.swift; sourceTree = "<group>"; };
+		464D542F254FEED300DCA9A9 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		464D5431254FF67000DCA9A9 /* BitcoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinViewController.swift; sourceTree = "<group>"; };
+		464D54332550DA6700DCA9A9 /* FirebaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewController.swift; sourceTree = "<group>"; };
+		467D52132553AD4F00B3F079 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		46BF2B60252DCB55004BA939 /* PortfolioRedondo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioRedondo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BF2B63252DCB55004BA939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46BF2B65252DCB55004BA939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46BF2B68252DCB55004BA939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46BF2B6A252DCB55004BA939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46BF2B6D252DCB55004BA939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46BF2B6F252DCB55004BA939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BF2B75252DCC90004BA939 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		46D63275254AA9E6007374BC /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
+		46D63278254AB139007374BC /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = note5.wav; path = PortfolioRedondo/note5.wav; sourceTree = SOURCE_ROOT; };
+		46D63279254AB139007374BC /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = note1.wav; path = PortfolioRedondo/note1.wav; sourceTree = SOURCE_ROOT; };
+		46D6327A254AB139007374BC /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = note6.wav; path = PortfolioRedondo/note6.wav; sourceTree = SOURCE_ROOT; };
+		46D6327B254AB139007374BC /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = note7.wav; path = PortfolioRedondo/note7.wav; sourceTree = SOURCE_ROOT; };
+		46D6327C254AB139007374BC /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = note3.wav; path = PortfolioRedondo/note3.wav; sourceTree = SOURCE_ROOT; };
+		46D6327D254AB139007374BC /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = note2.wav; path = PortfolioRedondo/note2.wav; sourceTree = SOURCE_ROOT; };
+		46D6327E254AB13A007374BC /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = note4.wav; path = PortfolioRedondo/note4.wav; sourceTree = SOURCE_ROOT; };
+		46D63286254AF324007374BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		46E9138F253C24CD00FB03B0 /* CardGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameViewController.swift; sourceTree = "<group>"; };
+		6FEB47865CCEECDE3D586D91 /* Pods-PortfolioRedondo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortfolioRedondo.release.xcconfig"; path = "Target Support Files/Pods-PortfolioRedondo/Pods-PortfolioRedondo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46BF2B5D252DCB55004BA939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ED4D20A9FE69D1C6E17FFD /* Pods_PortfolioRedondo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF9D8B3AE5C03004E59BCC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EA169B7578C5542FB799822 /* Pods_PortfolioRedondo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		464D5414254EE63500DCA9A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46BF2B75252DCC90004BA939 /* CollectionViewCell.swift */,
+				464D5426254EE75400DCA9A9 /* Person+CoreDataClass.swift */,
+				464D5425254EE75400DCA9A9 /* Person+CoreDataProperties.swift */,
+				464D542F254FEED300DCA9A9 /* WeatherDataModel.swift */,
+				464D5411254EE2E400DCA9A9 /* PortfolioRedondo.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		467D521525542FD000B3F079 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				46BF2B65252DCB55004BA939 /* ViewController.swift */,
+				464D5429254EF11900DCA9A9 /* CDTableViewController.swift */,
+				46E9138F253C24CD00FB03B0 /* CardGameViewController.swift */,
+				46D63275254AA9E6007374BC /* XylophoneViewController.swift */,
+				464D542B254FE4AC00DCA9A9 /* WeatherViewController.swift */,
+				464D542D254FEEB700DCA9A9 /* ChangeCityViewController.swift */,
+				464D5431254FF67000DCA9A9 /* BitcoinViewController.swift */,
+				464D54332550DA6700DCA9A9 /* FirebaseViewController.swift */,
+				467D52132553AD4F00B3F079 /* NotificationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		467D52162554302500B3F079 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46BF2B67252DCB55004BA939 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		467D52172554313900B3F079 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46BF2B6C252DCB55004BA939 /* LaunchScreen.storyboard */,
+				46BF2B6A252DCB55004BA939 /* Assets.xcassets */,
+				46D63277254AB0C2007374BC /* SoundFIles */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46BF2B57252DCB55004BA939 = {
+			isa = PBXGroup;
+			children = (
+				46BF2B62252DCB55004BA939 /* PortfolioRedondo */,
+				46BF2B61252DCB55004BA939 /* Products */,
+				84EDDA176ABB8EFE1D3883F1 /* Pods */,
+				2FF9D8B3AE5C03004E59BCC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46BF2B61252DCB55004BA939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46BF2B60252DCB55004BA939 /* PortfolioRedondo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46BF2B62252DCB55004BA939 /* PortfolioRedondo */ = {
+			isa = PBXGroup;
+			children = (
+				464D5414254EE63500DCA9A9 /* Model */,
+				467D52162554302500B3F079 /* View */,
+				467D521525542FD000B3F079 /* Controllers */,
+				467D52172554313900B3F079 /* Supporting Files */,
+				46BF2B63252DCB55004BA939 /* AppDelegate.swift */,
+				46BF2B6F252DCB55004BA939 /* Info.plist */,
+				46D63286254AF324007374BC /* GoogleService-Info.plist */,
+			);
+			path = PortfolioRedondo;
+			sourceTree = "<group>";
+		};
+		46D63277254AB0C2007374BC /* SoundFIles */ = {
+			isa = PBXGroup;
+			children = (
+				46D63279254AB139007374BC /* note1.wav */,
+				46D6327D254AB139007374BC /* note2.wav */,
+				46D6327C254AB139007374BC /* note3.wav */,
+				46D6327E254AB13A007374BC /* note4.wav */,
+				46D63278254AB139007374BC /* note5.wav */,
+				46D6327A254AB139007374BC /* note6.wav */,
+				46D6327B254AB139007374BC /* note7.wav */,
+			);
+			path = SoundFIles;
+			sourceTree = "<group>";
+		};
+		84EDDA176ABB8EFE1D3883F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				203BA0EA1BB4E7D53D723165 /* Pods-PortfolioRedondo.debug.xcconfig */,
+				6FEB47865CCEECDE3D586D91 /* Pods-PortfolioRedondo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46BF2B5F252DCB55004BA939 /* PortfolioRedondo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BF2B72252DCB55004BA939 /* Build configuration list for PBXNativeTarget "PortfolioRedondo" */;
+			buildPhases = (
+				ED928978C835DCD46655BBD6 /* [CP] Check Pods Manifest.lock */,
+				46BF2B5C252DCB55004BA939 /* Sources */,
+				46BF2B5D252DCB55004BA939 /* Frameworks */,
+				46BF2B5E252DCB55004BA939 /* Resources */,
+				50BC2C44645A24A8B65F7AA4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortfolioRedondo;
+			productName = PortfolioRedondo;
+			productReference = 46BF2B60252DCB55004BA939 /* PortfolioRedondo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46BF2B58252DCB55004BA939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Akhelys Redondo";
+				TargetAttributes = {
+					46BF2B5F252DCB55004BA939 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46BF2B5B252DCB55004BA939 /* Build configuration list for PBXProject "PortfolioRedondo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46BF2B57252DCB55004BA939;
+			productRefGroup = 46BF2B61252DCB55004BA939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46BF2B5F252DCB55004BA939 /* PortfolioRedondo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46BF2B5E252DCB55004BA939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D63284254AB13A007374BC /* note2.wav in Resources */,
+				46D63282254AB13A007374BC /* note7.wav in Resources */,
+				46D6327F254AB13A007374BC /* note5.wav in Resources */,
+				46BF2B6E252DCB55004BA939 /* LaunchScreen.storyboard in Resources */,
+				46BF2B6B252DCB55004BA939 /* Assets.xcassets in Resources */,
+				46D63281254AB13A007374BC /* note6.wav in Resources */,
+				46D63280254AB13A007374BC /* note1.wav in Resources */,
+				46D63285254AB13A007374BC /* note4.wav in Resources */,
+				46D63287254AF324007374BC /* GoogleService-Info.plist in Resources */,
+				46D63283254AB13A007374BC /* note3.wav in Resources */,
+				46BF2B69252DCB55004BA939 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50BC2C44645A24A8B65F7AA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PortfolioRedondo/Pods-PortfolioRedondo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ZKCarousel/ZKCarousel.framework",
+				"${BUILT_PRODUCTS_DIR}/abseil/absl.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZKCarousel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/absl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PortfolioRedondo/Pods-PortfolioRedondo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED928978C835DCD46655BBD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PortfolioRedondo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46BF2B5C252DCB55004BA939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BF2B66252DCB55004BA939 /* ViewController.swift in Sources */,
+				46BF2B64252DCB55004BA939 /* AppDelegate.swift in Sources */,
+				464D5413254EE2E400DCA9A9 /* PortfolioRedondo.xcdatamodeld in Sources */,
+				46BF2B76252DCC90004BA939 /* CollectionViewCell.swift in Sources */,
+				46E91390253C24CD00FB03B0 /* CardGameViewController.swift in Sources */,
+				467D52142553AD4F00B3F079 /* NotificationViewController.swift in Sources */,
+				464D5428254EE75400DCA9A9 /* Person+CoreDataClass.swift in Sources */,
+				464D54342550DA6700DCA9A9 /* FirebaseViewController.swift in Sources */,
+				464D542E254FEEB700DCA9A9 /* ChangeCityViewController.swift in Sources */,
+				464D542A254EF11900DCA9A9 /* CDTableViewController.swift in Sources */,
+				464D5427254EE75400DCA9A9 /* Person+CoreDataProperties.swift in Sources */,
+				464D5430254FEED300DCA9A9 /* WeatherDataModel.swift in Sources */,
+				464D5432254FF67000DCA9A9 /* BitcoinViewController.swift in Sources */,
+				464D542C254FE4AD00DCA9A9 /* WeatherViewController.swift in Sources */,
+				46D63276254AA9E6007374BC /* XylophoneViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46BF2B67252DCB55004BA939 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46BF2B68252DCB55004BA939 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46BF2B6C252DCB55004BA939 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46BF2B6D252DCB55004BA939 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46BF2B70252DCB55004BA939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		46BF2B71252DCB55004BA939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46BF2B73252DCB55004BA939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203BA0EA1BB4E7D53D723165 /* Pods-PortfolioRedondo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PortfolioRedondo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redondo.PortfolioRedondo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46BF2B74252DCB55004BA939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FEB47865CCEECDE3D586D91 /* Pods-PortfolioRedondo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PortfolioRedondo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redondo.PortfolioRedondo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46BF2B5B252DCB55004BA939 /* Build configuration list for PBXProject "PortfolioRedondo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BF2B70252DCB55004BA939 /* Debug */,
+				46BF2B71252DCB55004BA939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BF2B72252DCB55004BA939 /* Build configuration list for PBXNativeTarget "PortfolioRedondo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BF2B73252DCB55004BA939 /* Debug */,
+				46BF2B74252DCB55004BA939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		464D5411254EE2E400DCA9A9 /* PortfolioRedondo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				464D5412254EE2E400DCA9A9 /* PortfolioRedondo.xcdatamodel */,
+			);
+			currentVersion = 464D5412254EE2E400DCA9A9 /* PortfolioRedondo.xcdatamodel */;
+			path = PortfolioRedondo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 46BF2B58252DCB55004BA939 /* Project object */;
+}
